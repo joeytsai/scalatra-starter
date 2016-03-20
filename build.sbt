@@ -1,5 +1,5 @@
 
-lazy val plugin = (project in file("."))
+lazy val restApi = (project in file("."))
   .enablePlugins(JtRestPlugin)
   .settings(
     name := "scalatra-starter",

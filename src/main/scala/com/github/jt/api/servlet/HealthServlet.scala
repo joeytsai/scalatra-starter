@@ -6,7 +6,7 @@ import com.github.jt.sbt.BuildInfoScalatraStarter
 import org.scalatra.Ok
 
 /**
- * Created by joeyt on 3/19/16.
+ * Simple servlet to return info from BuildInfo
  */
 class HealthServlet extends BaseServlet with HealthSwagger {
 

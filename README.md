@@ -12,5 +12,5 @@ Simple Scalatra project
   * https://github.com/swagger-api/swagger-ui/tree/v2.1.4
   * modify swagger-ui/index.html
     * var url = window.location.origin + "/swagger-resources";
-
 3. Add index.html to redirect to swagger
+4. Health check endpoint to return static build info
