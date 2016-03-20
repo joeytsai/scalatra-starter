@@ -13,12 +13,12 @@ class SwaggerServlet extends ScalatraServlet with JacksonSwaggerBase {
 object SwaggerSetup {
   private val apiVersion = "1.0"
   private val apiInfo = ApiInfo(
-    "title",
-    "description",
+    "Scalatra REST API",
+    "Example project",
     "tosUrl",
     "contact",
-    "license",
-    "licenseUrl"
+    "Apache License",
+    "http://choosealicense.com/licenses/apache-2.0/"
   )
   
   val swagger = new Swagger(Swagger.SpecVersion, apiVersion, apiInfo)
