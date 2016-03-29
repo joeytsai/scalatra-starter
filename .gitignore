@@ -21,5 +21,7 @@ sbt-launch.jar
 
 # intellij
 # https://www.jetbrains.com/help/idea/2016.1/managing-projects-under-version-control.html
-**/.idea/workspace.xml
-**/.idea/tasks.xml
+#**/.idea/workspace.xml
+#**/.idea/tasks.xml
+# used to do the above, but the .idea directory just confuses me
+.idea
