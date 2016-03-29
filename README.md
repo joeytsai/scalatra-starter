@@ -14,3 +14,13 @@ Simple Scalatra project
     * var url = window.location.origin + "/swagger-resources";
 3. Add index.html to redirect to swagger
 4. Health check endpoint to return static build info
+
+## Todo
+5. Unit tests
+6. Integration tests
+
+
+## Fork
+
+1. Modify build.sbt
+2. Move packages
